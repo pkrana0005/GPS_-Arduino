@@ -17,4 +17,5 @@ void loop() {                 // put your main code here, to run repeatedly:
 /* References:-
  *  https://create.arduino.cc/projecthub/ruchir1674/how-to-interface-gps-module-neo-6m-with-arduino-8f90ad
  *  Read NEO 6M GPS module DATA sheet
+ *  https://www.gpsworld.com/what-exactly-is-gps-nmea-data/
  */
