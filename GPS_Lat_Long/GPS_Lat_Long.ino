@@ -23,9 +23,9 @@ while(ss.available()>0)  //while GPS data is ready to be send to NodeMCU
          Serial.print("   Time = ");
          Serial.print(gps.time.value());
          Serial.print("   Lat = ");
-         Serial.print(gps.location.lat(),4);
+         Serial.print(gps.location.lat(),4);   //here "4" means 4 digits after the decimal
          Serial.print("   Long = ");
-         Serial.print(gps.location.lng(),4);
+         Serial.print(gps.location.lng(),4);  //here "4" means 4 digits after the decimal
          Serial.print("   Speed (mps)= ");
          Serial.println(gps.speed.mps());
          
