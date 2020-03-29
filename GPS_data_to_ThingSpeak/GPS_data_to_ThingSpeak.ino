@@ -15,8 +15,8 @@
 const char* ssid     = "DisarmHotspotDB_2";
 const char* password = "password123";
 
-unsigned long myChannelNumber = 945812;      //Replace it with your thingspeak channel number;
-const char * myWriteAPIKey = "S7BFDOJO4SYC9U90";  //"Replace it with your Thingspeak write api key";
+unsigned long myChannelNumber = thingspeak_channel_number;      //Replace it with your thingspeak channel number;
+const char * myWriteAPIKey = "Thingspeak_write_api_key";  //"Replace it with your Thingspeak write api key" within double quotes;
 
 // The TinyGPS++ object
 TinyGPSPlus gps;
